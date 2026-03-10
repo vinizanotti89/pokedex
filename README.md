@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pokédex - Next.js App
 
-## Getting Started
+Um projeto simples de Pokédex feito com Next.js, consumindo a API pública [PokéAPI](https://pokeapi.co/).
 
-First, run the development server:
+---
 
-```bash
+## 🧰 Tecnologias
+
+- Next.js (App Router)
+- React 18+
+- TypeScript
+- Fetch API para consumir dados externos
+
+---
+
+## 🚀 Como rodar localmente
+
+1. Clone o repositório:
+
+```bash  ```
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+
+2. Instale as dependências:
+
+npm install
+# ou
+yarn
+
+3. Inicie o servidor de desenvolvimento:
 npm run dev
-# or
+# ou
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Acesse no navegador:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📄 O que o projeto faz
 
-## Learn More
+Busca uma lista de Pokémon da PokéAPI
 
-To learn more about Next.js, take a look at the following resources:
+Renderiza os nomes na tela com Server Side Rendering (SSR)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Exemplo básico de rotas, fetch de API e Server Components no Next.js
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🔮 Possíveis melhorias
 
-## Deploy on Vercel
+Adicionar página de detalhes para cada Pokémon (rota dinâmica)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Incluir imagens oficiais dos Pokémon
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Implementar sistema de busca e filtros
+
+Aplicar estilos e layout mais avançados (CSS Modules, Tailwind, etc.)
+
+📦 Deploy
+
+Projeto pode ser facilmente deployado na plataforma Vercel
+ (criadores do Next.js), com integração contínua.
+
+📚 Referências
+
+Next.js Documentation
+
+PokéAPI
+
+Deploy Next.js com Vercel
+
+🧑‍💻 Sobre mim
+
+Projeto criado para demonstrar conhecimento em React, Next.js e consumo de APIs externas, focado em vaga de Desenvolvedor Frontend.
+
+📝 Licença
+
+MIT License © Vinícius Zanotti de Oliveira
