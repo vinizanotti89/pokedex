@@ -17,7 +17,6 @@ Um projeto simples de Pokédex feito com Next.js, consumindo a API pública [Pok
 
 1. Clone o repositório:
 
-```bash  ```
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 
